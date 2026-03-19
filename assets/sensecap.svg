@@ -1,0 +1,18 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="24" fill="#172554"/>
+  <rect x="24" y="24" width="752" height="372" rx="18" fill="#1E3A8A" stroke="#60A5FA"/>
+  <circle cx="62" cy="62" r="8" fill="#F87171"/>
+  <circle cx="90" cy="62" r="8" fill="#FBBF24"/>
+  <circle cx="118" cy="62" r="8" fill="#34D399"/>
+  <text x="150" y="68" fill="#BFDBFE" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20">sensecap-public-transport-CH</text>
+  <text x="48" y="126" fill="#EFF6FF" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="34">ESP32 transport monitor</text>
+  <text x="48" y="164" fill="#BFDBFE" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="22">Swiss departures on a dedicated hardware display</text>
+  <rect x="64" y="208" width="220" height="124" rx="18" fill="#0F172A" stroke="#93C5FD"/>
+  <rect x="86" y="230" width="176" height="80" rx="10" fill="#DBEAFE"/>
+  <text x="102" y="258" fill="#1E3A8A" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">BUS 31</text>
+  <text x="102" y="290" fill="#0F172A" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="26">3 min</text>
+  <rect x="322" y="208" width="430" height="124" rx="12" fill="#0F172A" stroke="#1D4ED8"/>
+  <text x="346" y="246" fill="#BFDBFE" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">stack</text>
+  <text x="346" y="286" fill="#EFF6FF" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30">ESP32-S3 • LVGL • Swiss transport API</text>
+  <text x="346" y="316" fill="#93C5FD" font-family="SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">small screen, useful data, no nonsense</text>
+</svg>
