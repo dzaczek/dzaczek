@@ -8,7 +8,8 @@ Backend, automation, scraping, embedded side quests, and systems that should be 
 
 ## `whoami`
 
-- software engineer
+- linux engineer / linux admin
+- shepherd of tux
 - based in Switzerland
 - interested in Python, JavaScript/TypeScript, Swift, Rust, SQL, and ESP32 projects
 - usually building monitoring tools, scrapers, dashboards, bots, and internal utilities
