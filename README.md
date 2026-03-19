@@ -1,5 +1,5 @@
 # dzaczek
-
+  <img src="./assets/IMG_2713.png" alt="slbot project card" width="75%">
 ```text
 > linux,building trackers, bots, dashboards and weirdly specific tools
 ```
