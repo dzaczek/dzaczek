@@ -1,7 +1,7 @@
 # dzaczek
 
 ```text
-> building trackers, bots, dashboards and weirdly specific tools
+> linux,building trackers, bots, dashboards and weirdly specific tools
 ```
 
 Backend, automation, scraping, embedded side quests, and systems that should be easy to debug at 03:00.
