@@ -1,9 +1,12 @@
+<div align="center">
+
 # dzaczek
-  <img src="./assets/IMG_2713.png" alt="slbot project card" width="95%" align=center>
-  
-```text
-> linux,building trackers, bots, dashboards and weirdly specific tools
-```
+
+<img src="./assets/IMG_2713.png" alt="slbot project card" width="95%">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=linux+engineer+%2F+shepherd+of+tux;building+trackers%2C+bots%2C+dashboards;automating+everything+that+moves;debugging+at+03%3A00+so+you+don't+have+to;based+in+Switzerland+%F0%9F%87%A8%F0%9F%87%AD)](https://github.com/dzaczek)
+
+</div>
 
 Backend, automation, scraping, embedded side quests, and systems that should be easy to debug at 03:00.
 
