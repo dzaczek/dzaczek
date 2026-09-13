@@ -2,92 +2,112 @@
 
 # dzaczek
 
-<img src="./assets/IMG_2713.png" alt="slbot project card" width="95%">
+**Linux engineer · Tuxherd · Building things in Switzerland**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=linux+engineer+%2F+shepherd+of+tux;building+trackers%2C+bots%2C+dashboards;automating+everything+that+moves;debugging+at+03%3A00+so+you+don't+have+to;based+in+Switzerland+%F0%9F%87%A8%F0%9F%87%AD)](https://github.com/dzaczek)
+<img src="./assets/IMG_2713.png" alt="dzaczek's illustrated workshop: Linux, monitoring, automation and embedded projects" width="100%">
+
+[Projects](#projects) · [T2S+ for macOS](#t2s-for-macos) · [Gallery](#gallery) · [Blog](https://consolechars.wordpress.com)
 
 </div>
 
-Backend, automation, scraping, embedded side quests, and systems that should be easy to debug at 03:00.
-
 ## `whoami`
 
-- linux engineer / linux admin
-- shepherd of tux
-- based in Switzerland
-- interested in Python, JavaScript/TypeScript, Swift, Rust, SQL, and ESP32 projects
-- usually building monitoring tools, scrapers, dashboards, bots, and internal utilities
+I'm a Linux engineer based in Switzerland. I build monitoring and automation tools,
+native macOS apps, and hardware projects that connect software to the world outside
+my terminal.
 
-## `ls ~/current`
+My projects range from Grafana panels and alerting integrations to thermal cameras,
+ESP32 displays, mesh radio and practical AI experiments. I like useful tools with
+clear controls, readable data, and enough visibility to debug them at 03:00.
 
-- `mminihunter` - Mac Mini M4 / M4 Pro price tracker for Swiss retailers with alerts and dashboard
-- `slbot` - reinforcement learning bot that learns to play `slither.io` in a real browser
-- `metric-cupid` - native macOS menu bar app for Alertmanager, Grafana, and Icinga2 alerts
-- `sensecap-public-transport-CH` - ESP32-S3 public transport monitor for Swiss departures
+<a id="t2s-for-macos"></a>
 
-## `gallery`
+## T2S+ Thermal Camera for macOS
 
-<a href="https://github.com/dzaczek/HolidayPlanner">
-  <img src="https://raw.githubusercontent.com/dzaczek/HolidayPlanner/main/img/example.png" alt="HolidayPlanner" width="49%">
+A native Swift app for the Xinfrared / Xtherm **T2S+ V2** USB-C thermal camera.
+Measure temperatures, inspect electronics and share the thermal view through a
+virtual camera in video calls.
+
+<a href="https://github.com/dzaczek/t2s-thermal-macos">
+  <img src="https://raw.githubusercontent.com/dzaczek/t2s-thermal-macos/main/docs/app.png" alt="T2S+ macOS app with thermal measurements, configurable area and line Max/Min markers, on-image plots and recording controls" width="100%">
 </a>
-<a href="https://github.com/dzaczek/slbot">
-  <img src="https://raw.githubusercontent.com/dzaczek/slbot/main/img/tui.png" alt="slbot Training Dashboard" width="49%">
+
+- Spots, areas and lines with independent **Max / Min marker counts** and object tracking.
+- On-image plots, six palettes, photos, recording, time-lapse and CSV temperature data.
+- Native Inspection, Electronics, Analysis and Presentation workspaces.
+- **IR + RGB and Plane calibration — beta**, for combining camera views and aligning a fixed work surface.
+
+**[Explore the project](https://github.com/dzaczek/t2s-thermal-macos)** ·
+**[Download for macOS](https://github.com/dzaczek/t2s-thermal-macos/releases/latest)** ·
+[Usage guide](https://github.com/dzaczek/t2s-thermal-macos/blob/main/docs/using.md)
+
+macOS 14+ · Apple Silicon and Intel · Signed and notarised releases · GPLv3
+
+<a id="projects"></a>
+
+## Selected projects
+
+| Project | What it does |
+| --- | --- |
+| [T2S+ Thermal Camera](https://github.com/dzaczek/t2s-thermal-macos) | Native macOS thermal measurements, recording and a virtual camera. |
+| [Icinga Alerting Forge](https://github.com/dzaczek/IcingaAlertingForge) | Bridges Grafana alerts into Icinga2 with automatically managed services and alert context. |
+| [Grafana Split-Flap](https://github.com/dzaczek/grafana-splitflap-panel) | Displays metrics as a mechanical airport-style departure board. |
+| [Grafana Alpine Clock](https://github.com/dzaczek/grafana-alpine-clock-panel) | A configurable clock panel with independent hands, indices and dial controls. |
+| [AI Headset](https://github.com/dzaczek/AI-Headset) | A virtual macOS audio device that connects an ElevenLabs conversational agent to calls. |
+| [AVA](https://github.com/dzaczek/ava) | A multilingual AI phone assistant with Signal updates and mid-call instructions. |
+| [slbot](https://github.com/dzaczek/slbot) | A reinforcement-learning experiment that plays slither.io in a real browser. |
+| [MacMiniHunter](https://github.com/dzaczek/MacMiniHunter) | Tracks Mac mini prices at Swiss retailers. |
+| [Meshtastic AI Bridge](https://github.com/dzaczek/Meshtastic-AI-Bridge) | Connects Meshtastic, AI and Matrix through a web interface. |
+| [SenseCAP Swiss Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live Swiss bus and train departures on an ESP32-S3 SenseCAP Indicator. |
+| [FacePulse](https://github.com/dzaczek/facepulse) | Raspberry Pi face-presence tracking with Prometheus metrics and Grafana dashboards. |
+| [nftgeo](https://github.com/dzaczek/nftgeo) | A small declarative geographic firewall for nftables on Linux. |
+
+Also on my workbench: Home Assistant [flip clocks](https://github.com/dzaczek/lovelace-flip-clock-card)
+and [sensor counters](https://github.com/dzaczek/lovelace-flip-sensor-card),
+[i3 on the uConsole](https://github.com/dzaczek/Uconsole-i3),
+[HolidayPlanner](https://github.com/dzaczek/HolidayPlanner), and
+[MATH-PAC](https://github.com/dzaczek/MATH-PAC).
+
+[Metric Cupid](https://github.com/dzaczek/metric-cupid-feedback) has a public feedback
+and issue tracker; its application source is private.
+
+<a id="gallery"></a>
+
+## A few things in action
+
+<a href="https://github.com/dzaczek/grafana-splitflap-panel">
+  <img src="https://raw.githubusercontent.com/dzaczek/grafana-splitflap-panel/main/src/img/example_1.jpg" alt="Grafana Split-Flap metrics display" width="49%">
 </a>
 <a href="https://github.com/dzaczek/IcingaAlertingForge">
-  <img src="https://raw.githubusercontent.com/dzaczek/IcingaAlertingForge/main/docs/img/header.png" alt="IcingaAlertingForge" width="49%">
+  <img src="https://raw.githubusercontent.com/dzaczek/IcingaAlertingForge/main/docs/img/header.png" alt="Icinga Alerting Forge project overview" width="49%">
 </a>
-<a href="https://github.com/dzaczek/grafana-splitflap-panel">
-  <img src="https://raw.githubusercontent.com/dzaczek/grafana-splitflap-panel/main/src/img/example_1.jpg" alt="grafana-splitflap-panel" width="49%">
+
+<a href="https://github.com/dzaczek/slbot">
+  <img src="https://raw.githubusercontent.com/dzaczek/slbot/main/img/tui.png" alt="slbot reinforcement-learning training dashboard" width="49%">
 </a>
 <a href="https://github.com/dzaczek/MacMiniHunter">
-  <img src="https://raw.githubusercontent.com/dzaczek/MacMiniHunter/main/dashboard_screenshot.png" alt="MacMiniHunter Dashboard" width="49%">
+  <img src="https://raw.githubusercontent.com/dzaczek/MacMiniHunter/main/dashboard_screenshot.png" alt="MacMiniHunter price-tracking dashboard" width="49%">
 </a>
+
 <a href="https://github.com/dzaczek/Meshtastic-AI-Bridge">
-  <img src="https://raw.githubusercontent.com/dzaczek/Meshtastic-AI-Bridge/main/mdfiles/i-mode.jpg" alt="Meshtastic-AI-Bridge" width="49%">
+  <img src="https://raw.githubusercontent.com/dzaczek/Meshtastic-AI-Bridge/main/mdfiles/i-mode.jpg" alt="Meshtastic AI Bridge interface" width="49%">
 </a>
-<a href="https://github.com/dzaczek/sensecap-public-transport-CH">
-  <img src="https://github.com/user-attachments/assets/b7e9e707-1367-475a-8f56-98d6d0495c97" alt="sensecap-public-transport-CH" width="49%">
-</a>
-<a href="https://github.com/dzaczek/slbot">
-  <img src="https://raw.githubusercontent.com/dzaczek/slbot/main/charts/chart_18_3d_steps_food_episode.gif" alt="slbot 3D Training Progress" width="49%">
-</a>
-<a href="https://github.com/dzaczek/ava">
-  <img src="https://raw.githubusercontent.com/dzaczek/ava/main/img/ava.png" alt="ava AI Voice Assistant" width="49%">
-</a>
-<a href="https://github.com/dzaczek/MATH-PAC">
-  <img src="https://raw.githubusercontent.com/dzaczek/MATH-PAC/main/img/mathpac.png" alt="MATH-PAC" width="49%">
+<a href="https://github.com/dzaczek/HolidayPlanner">
+  <img src="https://raw.githubusercontent.com/dzaczek/HolidayPlanner/main/img/example.png" alt="HolidayPlanner family holiday planning calendar" width="49%">
 </a>
 
 ## `cat /etc/toolbox`
 
-```bash
-python
-typescript
-swift
-rust
-postgresql
-docker
-linux
-esp32
-web scraping
-monitoring
-automation
-```
+**Systems & observability:** Linux, Docker, Kubernetes, Ansible, Prometheus, Grafana, Icinga2.
 
-## `status`
+**Code & data:** Python, Go, Swift, JavaScript / TypeScript, Bash, SQL.
 
-- building small focused systems instead of bloated platforms
-- automating repetitive work whenever possible
-- interested in observability, data collection, and practical AI experiments
-- partial to terminals, clean CLIs, and software with sharp edges
+**Hardware & experiments:** ESP32, Raspberry Pi, thermal imaging, Meshtastic, Home Assistant, AI and automation.
 
-## `pinned`
+## Around the web
 
-- [mminihunter](https://github.com/dzaczek/mminihunter)
-- [slbot](https://github.com/dzaczek/slbot)
-- [metric-cupid](https://github.com/dzaczek/metric-cupid)
-- [sensecap-public-transport-CH](https://github.com/dzaczek/sensecap-public-transport-CH)
+[All repositories](https://github.com/dzaczek?tab=repositories) ·
+[ConsoleChars blog](https://consolechars.wordpress.com) ·
+[Buy me a coffee](https://buymeacoffee.com/dzaczek)
 
-## `contact`
-
-- GitHub: [@dzaczek](https://github.com/dzaczek)
+For questions, ideas or bug reports, open an issue in the relevant project.
