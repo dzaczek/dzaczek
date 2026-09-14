@@ -2,17 +2,17 @@
 
 # dzaczek
 
-**Linux engineer · Tuxherd · Building things in Switzerland**
+**Linux engineer · Tuxherd**
 
 <img src="./assets/IMG_2713.png" alt="dzaczek's illustrated workshop: Linux, monitoring, automation and embedded projects" width="100%">
 
-[Gallery](#gallery) · [Projects](#projects) · [Blog](https://consolechars.wordpress.com)
+[Gallery](#gallery) · [Projects](#projects)
 
 </div>
 
 ## `whoami`
 
-I'm a Linux engineer based in Switzerland. I build monitoring and automation tools,
+I'm a Linux engineer. I build monitoring and automation tools,
 native macOS apps, and hardware projects that connect software to the world outside
 my terminal.
 
@@ -76,10 +76,10 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/dzaczek/sensecap-public-transport-CH">
-        <img src="https://github.com/user-attachments/assets/b7e9e707-1367-475a-8f56-98d6d0495c97" alt="SenseCAP Swiss Transport: Live Swiss departures on an ESP32 display." width="100%">
-        <br><strong>SenseCAP Swiss Transport</strong>
+        <img src="https://github.com/user-attachments/assets/b7e9e707-1367-475a-8f56-98d6d0495c97" alt="SenseCAP Transport: Live transport departures on an ESP32 display." width="100%">
+        <br><strong>SenseCAP Transport</strong>
       </a>
-      <br>Live Swiss departures on an ESP32 display.
+      <br>Live transport departures on an ESP32 display.
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dzaczek/icinga-lighthouse">
@@ -99,10 +99,10 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dzaczek/MacMiniHunter">
-        <img src="https://raw.githubusercontent.com/dzaczek/MacMiniHunter/main/dashboard_screenshot.png" alt="MacMiniHunter: Mac mini price tracking across Swiss retailers." width="100%">
+        <img src="https://raw.githubusercontent.com/dzaczek/MacMiniHunter/main/dashboard_screenshot.png" alt="MacMiniHunter: Mac mini price tracking across retailers." width="100%">
         <br><strong>MacMiniHunter</strong>
       </a>
-      <br>Mac mini price tracking across Swiss retailers.
+      <br>Mac mini price tracking across retailers.
     </td>
   </tr>
   <tr>
@@ -136,9 +136,9 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
 | [AI Headset](https://github.com/dzaczek/AI-Headset) | A virtual macOS audio device that connects an ElevenLabs conversational agent to calls. |
 | [AVA](https://github.com/dzaczek/ava) | A multilingual AI phone assistant with Signal updates and mid-call instructions. |
 | [slbot](https://github.com/dzaczek/slbot) | A reinforcement-learning experiment that plays slither.io in a real browser. |
-| [MacMiniHunter](https://github.com/dzaczek/MacMiniHunter) | Tracks Mac mini prices at Swiss retailers. |
+| [MacMiniHunter](https://github.com/dzaczek/MacMiniHunter) | Tracks Mac mini prices across retailers. |
 | [Meshtastic AI Bridge](https://github.com/dzaczek/Meshtastic-AI-Bridge) | Connects Meshtastic, AI and Matrix through a web interface. |
-| [SenseCAP Swiss Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live Swiss bus and train departures on an ESP32-S3 SenseCAP Indicator. |
+| [SenseCAP Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live bus and train departures on an ESP32-S3 SenseCAP Indicator. |
 | [FacePulse](https://github.com/dzaczek/facepulse) | Raspberry Pi face-presence tracking with Prometheus metrics and Grafana dashboards. |
 | [nftgeo](https://github.com/dzaczek/nftgeo) | A small declarative geographic firewall for nftables on Linux. |
 
@@ -162,7 +162,6 @@ and issue tracker; its application source is private.
 ## Around the web
 
 [All repositories](https://github.com/dzaczek?tab=repositories) ·
-[ConsoleChars blog](https://consolechars.wordpress.com) ·
 [Buy me a coffee](https://buymeacoffee.com/dzaczek)
 
 For questions, ideas or bug reports, open an issue in the relevant project.
