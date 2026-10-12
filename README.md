@@ -51,22 +51,6 @@ USB headset.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/dzaczek/phoneborg">
-        <img src="https://raw.githubusercontent.com/dzaczek/phoneborg/main/docs/images/panel-overview.png" alt="PhoneBorg: Old Android phones serving LLMs as one cluster." width="100%">
-        <br><strong>PhoneBorg</strong>
-      </a>
-      <br>Old Android phones serving LLMs as one cluster.
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/dzaczek/chore-calendar">
-        <img src="https://raw.githubusercontent.com/dzaczek/chore-calendar/main/screenshot.png" alt="Chore Planner: A printable monthly chore calendar for the family fridge." width="100%">
-        <br><strong>Chore Planner</strong>
-      </a>
-      <br>A printable chore calendar for the family fridge.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/dzaczek/grafana-splitflap-panel">
         <img src="https://raw.githubusercontent.com/dzaczek/grafana-splitflap-panel/main/src/img/example_1.jpg" alt="Grafana Split-Flap: Metrics on a mechanical departure board." width="100%">
         <br><strong>Grafana Split-Flap</strong>
@@ -161,39 +145,78 @@ USB headset.
       <br>Family holiday planning across districts.
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/dzaczek/phoneborg">
+        <img src="https://raw.githubusercontent.com/dzaczek/phoneborg/main/docs/images/panel-overview.png" alt="PhoneBorg: Old Android phones as an LLM inference cluster." width="100%">
+        <br><strong>PhoneBorg</strong>
+      </a>
+      <br>Old Android phones as an LLM inference cluster.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/dzaczek/chore-calendar">
+        <img src="https://raw.githubusercontent.com/dzaczek/chore-calendar/main/screenshot.png" alt="Chore Calendar: A printable monthly chore planner for the fridge." width="100%">
+        <br><strong>Chore Calendar</strong>
+      </a>
+      <br>A printable monthly chore planner for the fridge.
+    </td>
+  </tr>
 </table>
 
 <a id="projects"></a>
 
-## Selected projects
+## Projects
+
+### Monitoring & observability
 
 | Project | What it does |
 | --- | --- |
-| [PhoneBorg](https://github.com/dzaczek/phoneborg) | Turns old Android phones into an LLM inference cluster behind one OpenAI-compatible API. |
 | [Icinga Alerting Forge](https://github.com/dzaczek/IcingaAlertingForge) | Bridges Grafana alerts into Icinga2 with automatically managed services and alert context. |
 | [Grafana Split-Flap](https://github.com/dzaczek/grafana-splitflap-panel) | Displays metrics as a mechanical airport-style departure board. |
 | [Grafana Alpine Clock](https://github.com/dzaczek/grafana-alpine-clock-panel) | A configurable clock panel with independent hands, indices and dial controls. |
-| [T2S+ Thermal Camera](https://github.com/dzaczek/t2s-thermal-macos) | Native macOS thermal measurements, recording and a virtual camera. |
-| [AI Headset](https://github.com/dzaczek/AI-Headset) | A virtual macOS audio device that connects an ElevenLabs conversational agent to calls. |
+| [Icinga Lighthouse](https://github.com/dzaczek/icinga-lighthouse) | Hardware notification light for Icinga2 alerts. |
+| [FacePulse](https://github.com/dzaczek/facepulse) | Raspberry Pi face-presence tracking with Prometheus metrics and Grafana dashboards. |
+| [Beepberry Power Plot](https://github.com/dzaczek/beepbeery_power_plot) | Power monitoring and plots for the Beepberry handheld. |
+
+### AI & automation
+
+| Project | What it does |
+| --- | --- |
+| [PhoneBorg](https://github.com/dzaczek/phoneborg) | Turns old Android phones into an LLM inference cluster: llama.cpp per phone, an OpenAI-compatible gateway, Prometheus and Grafana. |
 | [AVA](https://github.com/dzaczek/ava) | A multilingual AI phone assistant with Signal updates and mid-call instructions. |
+| [AVA for Hermes](https://github.com/dzaczek/ava-Hermes) | AVA packaged as a Hermes Agent skill, with inbound and outbound calls. |
+| [AI Headset](https://github.com/dzaczek/AI-Headset) | A virtual macOS audio device that connects an ElevenLabs conversational agent to calls. |
 | [slbot](https://github.com/dzaczek/slbot) | A reinforcement-learning experiment that plays slither.io in a real browser. |
 | [MacMiniHunter](https://github.com/dzaczek/MacMiniHunter) | Tracks Mac mini prices across retailers. |
-| [Meshtastic AI Bridge](https://github.com/dzaczek/Meshtastic-AI-Bridge) | Connects Meshtastic, AI and Matrix through a web interface. |
-| [Mesh Radar](https://github.com/dzaczek/mesh-radar) | A Meshtastic dashboard that triangulates nodes from API and MQTT data and simulates virtual nodes. |
-| [SenseCAP Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live bus and train departures on an ESP32-S3 SenseCAP Indicator. |
-| [FacePulse](https://github.com/dzaczek/facepulse) | Raspberry Pi face-presence tracking with Prometheus metrics and Grafana dashboards. |
-| [nftgeo](https://github.com/dzaczek/nftgeo) | A small declarative geographic firewall for nftables on Linux. |
 
-Also on my workbench: Home Assistant [flip clocks](https://github.com/dzaczek/lovelace-flip-clock-card)
-and [sensor counters](https://github.com/dzaczek/lovelace-flip-sensor-card),
-[i3 on the uConsole](https://github.com/dzaczek/Uconsole-i3),
-[Beepberry battery plots](https://github.com/dzaczek/beepbeery_power_plot),
-a [sysadmin toolbox](https://github.com/dzaczek/toolbox),
-[AVA as a Hermes skill](https://github.com/dzaczek/ava-Hermes),
-[HolidayPlanner](https://github.com/dzaczek/HolidayPlanner),
-[Chore Planner](https://github.com/dzaczek/chore-calendar), and two learning games for kids:
-[MATH-PAC](https://github.com/dzaczek/MATH-PAC) and
-[Letter Eater](https://github.com/dzaczek/Letter-Eater-Game).
+### Hardware, radio & macOS
+
+| Project | What it does |
+| --- | --- |
+| [T2S+ Thermal Camera](https://github.com/dzaczek/t2s-thermal-macos) | Native macOS thermal measurements, recording and a virtual camera. |
+| [Meshtastic AI Bridge](https://github.com/dzaczek/Meshtastic-AI-Bridge) | Connects Meshtastic, AI and Matrix through a web interface. |
+| [Mesh Radar](https://github.com/dzaczek/mesh-radar) | Meshtastic dashboard with triangulation, MQTT and virtual nodes. |
+| [SenseCAP Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live bus and train departures on an ESP32-S3 SenseCAP Indicator. |
+| [uConsole + i3](https://github.com/dzaczek/Uconsole-i3) | i3 window manager setup for the uConsole handheld. |
+
+### Self-hosting & sysadmin
+
+| Project | What it does |
+| --- | --- |
+| [Pingvin Share X](https://github.com/dzaczek/pingvin-share-x) | My fork of the self-hosted file sharing platform, focused on managing, auditing and cleaning up shares for an organisation. |
+| [nftgeo](https://github.com/dzaczek/nftgeo) | A small declarative geographic firewall for nftables on Linux. |
+| [toolbox](https://github.com/dzaczek/toolbox) | Scripts and Ansible playbooks for Linux sysadmins. |
+
+### Home & family
+
+| Project | What it does |
+| --- | --- |
+| [Flip Clock Card](https://github.com/dzaczek/lovelace-flip-clock-card) | A retro flip clock with 3D animations for Home Assistant. |
+| [Flip Sensor Card](https://github.com/dzaczek/lovelace-flip-sensor-card) | Shows any Home Assistant entity as a mechanical flip counter. |
+| [HolidayPlanner](https://github.com/dzaczek/HolidayPlanner) | Holiday planning for families living and working in different districts. |
+| [Chore Calendar](https://github.com/dzaczek/chore-calendar) | A printable monthly chore planner for the fridge. |
+| [MATH-PAC](https://github.com/dzaczek/MATH-PAC) | A 3D Pac-Man-style game that teaches children numbers. |
+| [Letter Eater](https://github.com/dzaczek/Letter-Eater-Game) | A game that teaches children letter sounds and mouse control. |
 
 [Metric Cupid](https://github.com/dzaczek/metric-cupid-feedback) has a public feedback
 and issue tracker; its application source is private.
