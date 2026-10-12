@@ -4,9 +4,20 @@
 
 **Linux engineer · Tuxherd**
 
+*I turn metrics, old hardware and AI models into tools you actually want to look at.*
+
 <img src="./assets/IMG_2713.png" alt="dzaczek's illustrated workshop: Linux, monitoring, automation and embedded projects" width="100%">
 
-[Gallery](#gallery) · [Projects](#projects)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-18BCF2?style=flat&logo=homeassistant&logoColor=white)
+
+[Now building](#now-building) · [Gallery](#gallery) · [Projects](#projects)
 
 </div>
 
@@ -20,11 +31,40 @@ My projects range from Grafana panels and alerting integrations to thermal camer
 ESP32 displays, mesh radio and practical AI experiments. I like useful tools with
 clear controls, readable data, and enough visibility to debug them at 03:00.
 
+<a id="now-building"></a>
+
+## Now building
+
+**[PhoneBorg](https://github.com/dzaczek/phoneborg)** — your drawer of old Android phones
+is an AI cluster waiting to happen. Plug them in over USB: PhoneBorg provisions each phone
+with adb, runs llama.cpp on it and puts the whole fleet behind **one OpenAI-compatible
+endpoint**, with failover, model placement and Prometheus + Grafana dashboards.
+
+**[AI Headset](https://github.com/dzaczek/AI-Headset)** — a virtual macOS audio device that
+lets an ElevenLabs agent join your Zoom, Teams or Signal call as if it were an ordinary
+USB headset.
+
 <a id="gallery"></a>
 
 ## Projects in pictures
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/dzaczek/phoneborg">
+        <img src="https://raw.githubusercontent.com/dzaczek/phoneborg/main/docs/images/panel-overview.png" alt="PhoneBorg: Old Android phones serving LLMs as one cluster." width="100%">
+        <br><strong>PhoneBorg</strong>
+      </a>
+      <br>Old Android phones serving LLMs as one cluster.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/dzaczek/chore-calendar">
+        <img src="https://raw.githubusercontent.com/dzaczek/chore-calendar/main/screenshot.png" alt="Chore Planner: A printable monthly chore calendar for the family fridge." width="100%">
+        <br><strong>Chore Planner</strong>
+      </a>
+      <br>A printable chore calendar for the family fridge.
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/dzaczek/grafana-splitflap-panel">
@@ -129,6 +169,7 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
 
 | Project | What it does |
 | --- | --- |
+| [PhoneBorg](https://github.com/dzaczek/phoneborg) | Turns old Android phones into an LLM inference cluster behind one OpenAI-compatible API. |
 | [Icinga Alerting Forge](https://github.com/dzaczek/IcingaAlertingForge) | Bridges Grafana alerts into Icinga2 with automatically managed services and alert context. |
 | [Grafana Split-Flap](https://github.com/dzaczek/grafana-splitflap-panel) | Displays metrics as a mechanical airport-style departure board. |
 | [Grafana Alpine Clock](https://github.com/dzaczek/grafana-alpine-clock-panel) | A configurable clock panel with independent hands, indices and dial controls. |
@@ -138,6 +179,7 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
 | [slbot](https://github.com/dzaczek/slbot) | A reinforcement-learning experiment that plays slither.io in a real browser. |
 | [MacMiniHunter](https://github.com/dzaczek/MacMiniHunter) | Tracks Mac mini prices across retailers. |
 | [Meshtastic AI Bridge](https://github.com/dzaczek/Meshtastic-AI-Bridge) | Connects Meshtastic, AI and Matrix through a web interface. |
+| [Mesh Radar](https://github.com/dzaczek/mesh-radar) | A Meshtastic dashboard that triangulates nodes from API and MQTT data and simulates virtual nodes. |
 | [SenseCAP Transport](https://github.com/dzaczek/sensecap-public-transport-CH) | Live bus and train departures on an ESP32-S3 SenseCAP Indicator. |
 | [FacePulse](https://github.com/dzaczek/facepulse) | Raspberry Pi face-presence tracking with Prometheus metrics and Grafana dashboards. |
 | [nftgeo](https://github.com/dzaczek/nftgeo) | A small declarative geographic firewall for nftables on Linux. |
@@ -145,8 +187,13 @@ clear controls, readable data, and enough visibility to debug them at 03:00.
 Also on my workbench: Home Assistant [flip clocks](https://github.com/dzaczek/lovelace-flip-clock-card)
 and [sensor counters](https://github.com/dzaczek/lovelace-flip-sensor-card),
 [i3 on the uConsole](https://github.com/dzaczek/Uconsole-i3),
-[HolidayPlanner](https://github.com/dzaczek/HolidayPlanner), and
-[MATH-PAC](https://github.com/dzaczek/MATH-PAC).
+[Beepberry battery plots](https://github.com/dzaczek/beepbeery_power_plot),
+a [sysadmin toolbox](https://github.com/dzaczek/toolbox),
+[AVA as a Hermes skill](https://github.com/dzaczek/ava-Hermes),
+[HolidayPlanner](https://github.com/dzaczek/HolidayPlanner),
+[Chore Planner](https://github.com/dzaczek/chore-calendar), and two learning games for kids:
+[MATH-PAC](https://github.com/dzaczek/MATH-PAC) and
+[Letter Eater](https://github.com/dzaczek/Letter-Eater-Game).
 
 [Metric Cupid](https://github.com/dzaczek/metric-cupid-feedback) has a public feedback
 and issue tracker; its application source is private.
@@ -157,7 +204,9 @@ and issue tracker; its application source is private.
 
 **Code & data:** Python, Go, Swift, JavaScript / TypeScript, Bash, SQL.
 
-**Hardware & experiments:** ESP32, Raspberry Pi, thermal imaging, Meshtastic, Home Assistant, AI and automation.
+**Hardware & experiments:** ESP32, Raspberry Pi, Android/adb, thermal imaging, Meshtastic, Home Assistant.
+
+**AI:** llama.cpp, local LLM inference, ElevenLabs voice agents, reinforcement learning (PyTorch).
 
 ## Around the web
 
